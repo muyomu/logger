@@ -9,6 +9,6 @@ use muyomu\config\base\GenericConfig;
 class Log4pDefaultConfig extends GenericConfig
 {
     protected array $configData = [
-        "log_location"=>"../resource/log"
+        "log_location"=>"../log/"
     ];
 }
